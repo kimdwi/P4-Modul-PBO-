@@ -14,6 +14,12 @@ public class P4_Orang {
         this.umur = umur;
     }
 
+    public P4_Orang(String nama, int umur, int tinggiBadan, int beratBadan){
+        this(nama, umur);
+        this.tinggiBadan = tinggiBadan;
+        this.beratBadan = beratBadan;
+    }
+
     public void menangis() {
 
         System.out.println("ue..ue..TvT");
@@ -23,8 +29,4 @@ public class P4_Orang {
 
         System.out.println("www...www");
     }
-
-
-    }
-
 }
