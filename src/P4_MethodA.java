@@ -1,4 +1,4 @@
-public class MethodA {
+public class P4_MethodA {
     public static void main(String[] args) {
         welcome();
     }
